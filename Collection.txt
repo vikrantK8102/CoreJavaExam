@@ -1,0 +1,33 @@
+Collection (Interface)
+│
+├── List (Ordered, Allows Duplicates)
+│   ├── ArrayList         → Resizable array
+│   ├── LinkedList        → Doubly linked list
+│   └── Vector            → Legacy, synchronized
+│       └── Stack         → Legacy stack (LIFO)
+│
+├── Set (Unordered, No Duplicates)
+│   ├── HashSet           → Uses HashMap internally
+│   ├── LinkedHashSet     → Maintains insertion order
+│   └── TreeSet           → Sorted set (Red-Black Tree)
+│
+└── Queue (FIFO)
+    ├── PriorityQueue     → Elements sorted by priority
+    ├── LinkedList        → Implements Deque also
+    └── ArrayDeque        → Resizable array, faster than Stack
+
+Map (Key-Value pairs) — Not part of Collection Interface
+│
+├── HashMap              → Unordered, allows one null key
+│   └── LinkedHashMap    → Maintains insertion order
+├── TreeMap              → Sorted by keys (Red-Black Tree)
+└── Hashtable            → Legacy, synchronized
+    └── Properties       → Used for configuration
+
+Others:
+- EnumSet     → High-performance Set for enums
+- EnumMap     → High-performance Map for enums
+- WeakHashMap → Keys can be garbage collected
+- IdentityHashMap → Compares keys by reference (==)
+- Concurrent Collections → Thread-safe variants (e.g., ConcurrentHashMap, CopyOnWriteArrayList)
+

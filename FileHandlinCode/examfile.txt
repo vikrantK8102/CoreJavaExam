@@ -1,0 +1,1 @@
+Total number of word Total number of vowels Total number of white spaces Great! Below is the enhanced version of your Java file handling code that includes:Total number of lines
